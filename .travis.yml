@@ -7,4 +7,3 @@ before_install:
 
 script:
   - docker run anton-prymak/docker-react npm run test -- --coverage
-
