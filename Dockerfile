@@ -17,6 +17,8 @@ RUN npm run build
 
 # pull official Nginx image
 FROM nginx
+# exposing http port for EBS deployment
+EXPOSE 80
 # copieing from the build fase
 COPY --from=builder /app/build /usr/share/nginx/html
 
