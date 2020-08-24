@@ -10,9 +10,6 @@ function App() {
         <p>
           Hey there from the Docker y'all!
         </p>
-        <p>
-          A new DevOps Rock Star here!!! ;)
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
